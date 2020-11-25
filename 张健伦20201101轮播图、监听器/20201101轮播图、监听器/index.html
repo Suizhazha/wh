@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="item">1</li>
+        <li class="item">2</li>
+        <li class="item">3</li>
+        <li class="item">4</li>
+    </ul>
+    <script>
+        var lis =document.getElementsByClassName('item');
+
+        var index=0;
+
+        var goNext=function(){
+            // 去掉上一个红色
+            changeBlackFun();
+            // 处理数值变化
+            if(index==lis.length-1){
+                index=0;
+            }else{
+                index++;
+            }
+            
+            console.log(index);
+            changeColorFun();
+            // lis[index].style.color='red';
+        }
+        var changeColorFun=function(){
+            lis[index].style.color='red';
+        }
+
+        // 封装让上一个变成黑的的函数
+        var changeBlackFun=function(){
+
+                // lis[index].style.color='black';
+                for(var i=0;i<lis.length;i++){
+                    lis[i].style.color='black';
+                }
+
+        }
+
+        // 页面初始化
+        var init=function(){
+            index=0;
+            changeColorFun();
+        }
+        init();
+    </script>
+</body>
+</html>

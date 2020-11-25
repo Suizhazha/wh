@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            // var d1_before=document.getElementsByClassName('d1')[0]
+            // console.log(d1_before);
+        }
+    </script>
+</head>
+<body>
+    <input type="text">
+    <div class="d1">这是div标签</div>
+    <input type="radio" name="sex" value="man" id="nan">
+    <label for="nan">男</label>
+    <input type="radio" name="sex" value="woman" id="nu">
+    <label for="nu">女</label>
+    <input type="range">
+    <script>
+        // 加载顺序
+        // 1、解析html结构
+        // 2、加载解析js
+        // 3、DOM构建完成，执行js
+        // 4、加载图片，样式表（CSS）
+        // 5、页面加载完成
+        // on事件
+        var d1=document.getElementsByClassName('d1')[0]
+        var input=document.querySelector('[type=text]')
+        var radios=document.querySelectorAll('[type=radio]')
+        var range=document.querySelector('[type=range')
+        // 属性---会被覆盖掉
+        // d1.onclick=function(){
+        //     d1.style.backgroundColor='blue'
+        // }
+        // d1.style.color='white'
+        // d1.style.color='black'
+        // d1.onclick=function(){
+        //     d1.style.fontSize='80px'
+        // }                                            
+
+        // 方法
+        // d1.addEventListener('mouseenter',function(){
+        //     d1.style.width='400px'
+        // })
+
+        // d1.addEventListener('mouseleave',function(){
+        //     d1.style.width='200px'
+        // })
+        // d1.addEventListener('click',function(){
+        //     d1.style.color='white'
+        // })
+        // d1.addEventListener('click',function(){
+        //     d1.style.fontSize='80px'
+        // })
+
+        // 鼠标监听器
+        // click点击
+        // mosedown按下
+        // mouseup弹开
+        // mouseenter鼠标移入
+        // mouseleave鼠标移出
+        // mouseover鼠标覆盖
+        // mouseout鼠标在外
+        // mousemove鼠标移动的时候会捕捉光标的位置
+        // mousewheel鼠标滚轮滚动
+        // d1.addEventListener('mousemove',function(e){
+        //     // d1.style.backgroundColor='blue'
+        //     console.log(e)
+        // })
+        // d1.addEventListener('mousewheel',function(e){
+        //     console.log(e);
+        // })
+
+        // 键盘事件
+        // document---整个页面文档
+        // keypress 按键
+        // keydown 键盘按下
+        // keyup 键盘放开
+        // document.addEventListener('keydown',function(e){
+        //     console.log(e);
+        // })
+
+        // 表单事件
+        // focus--聚焦
+        // input.addEventListener('focus',function(){
+        //     d1.style.display='block'
+        // })
+        // blur--失焦
+        // input.addEventListener('blur',function(){
+        //     d1.style.display='none'
+        // })
+        // 输入事件--捕捉输入的信息
+        // input.addEventListener('input',function(e){
+        //     // input.value--输入框中目前存在的值
+        //     // e.data--检查每次输入的内容
+        //     console.log(input.value);
+        //     console.log(e.data);
+        // })
+
+        // change事件
+        // radios[0].addEventListener('change',function(){
+        //     console.log(111);
+        // })
+        // radios[1].addEventListener('change',function(){
+        //     console.log(222);
+        // })
+        range.addEventListener('change',function(){
+            console.log(range.value);
+        })
+
+        // 窗口监听器
+        window.addEventListener('resize',function(){
+            console.log(window.innerWidth)
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            border: 1px solid black;
+        }
+        .wrap{
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 50px;
+            position: relative;
+        }
+        .list {
+            list-style: none;
+            width: 500px;
+            height: 300px;  
+        }
+
+        .list .item {
+            width: 500px;
+            height: 300px;
+            font-size: 50px;
+            font-weight: 800;
+            text-align: center;
+            line-height: 300px;
+            position: absolute;
+        }
+
+        .list .item:first-child {
+            background-color: red;
+        }
+
+        .list .item:nth-child(2) {
+            background-color: aqua;
+        }
+
+        .list .item:nth-child(3) {
+            background-color: green;
+        }
+
+        .list .item:nth-child(4) {
+            background-color: orange;
+        }
+
+        /* .list .item:last-child {
+            background-color: orange;
+        } */
+        button{
+            width: 40px;
+            height: 70px;
+            position: absolute;
+
+        }
+        .wrap .prev{
+            left: 0;
+            top: 115px;
+        }
+        .wrap .next{
+            right: 0;
+            top: 115px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <ul class="list">
+            <li class="item">1</li>
+            <li class="item">2</li>
+            <li class="item">3</li>
+            <li class="item">4</li>
+        </ul>
+        <button class="prev"><</button>
+        <button class="next">></button>
+    </div>
+    
+    <script>
+        var items = document.getElementsByClassName('item');
+        var btns=document.getElementsByTagName('button')
+        var index = 0;
+        // items[2].style.display='block'
+
+        // items[0].style.display='none'
+        // items[1].style.display='none'
+        // items[3].style.display='none'
+
+        var goNextFun = function () {
+            if (index == items.length - 1) {
+                index = 0
+            } else {
+                index++
+            }
+
+            clear()
+
+            show()
+        }
+
+        var goPrevFun=function(){
+            if (index == 0) {
+                index = items.length - 1
+            } else {
+                index--
+            }
+
+            clear()
+
+            show()
+        }
+
+        var clear=function(){
+            for (var i = 0; i < items.length; i++) {
+                items[i].style.display = 'none'
+            }
+        }
+        var show = function () {
+            items[index].style.display = 'block';
+        }
+
+        // 挂监听器
+        // btns[0].addEventListener('click',function(){
+        //     goPrevFun()
+        // })
+
+        // var newFun()=function(){
+
+        // }()
+
+        btns[0].addEventListener('click',goPrevFun)
+
+        btns[1].addEventListener('click',function(){
+            goNextFun()
+        })
+
+        // 封装页面初始化函数
+        var init=function(){
+            index=0
+            clear()
+            show()  
+        }
+        init()
+    </script>
+</body>
+
+</html>
