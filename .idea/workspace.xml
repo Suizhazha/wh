@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/1/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/1/1.js" afterDir="false" />
+    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="换算美元">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2.1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kSAA7ON3A61dG0eMi8qbXBirWr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,8 +26,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\桌面\wh\ Guess\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,8 +44,30 @@
       <updated>1605683472970</updated>
       <workItem from="1605683474234" duration="1531000" />
       <workItem from="1606184944868" duration="4073000" />
-      <workItem from="1606272881165" duration="1243000" />
+      <workItem from="1606272881165" duration="3221000" />
+      <workItem from="1606484494799" duration="131000" />
+      <workItem from="1606484641071" duration="23000" />
+      <workItem from="1606484703414" duration="1000" />
+      <workItem from="1606484806957" duration="2000" />
+      <workItem from="1606484845615" duration="65000" />
+      <workItem from="1606484923356" duration="46000" />
+      <workItem from="1606484981709" duration="17000" />
+      <workItem from="1606485021379" duration="38000" />
+      <workItem from="1606485070186" duration="5000" />
+      <workItem from="1606485095325" duration="131000" />
+      <workItem from="1606792648634" duration="28000" />
+      <workItem from="1606792705768" duration="6000" />
+      <workItem from="1606792731775" duration="1182000" />
+      <workItem from="1606794715638" duration="17000" />
     </task>
+    <task id="LOCAL-00001" summary="换算美元">
+      <created>1606793696052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606793696052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -45,14 +76,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="换算美元" />
+    <option name="LAST_COMMIT_MESSAGE" value="换算美元" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1284" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606185028041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1284" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606185028041" />
+    <state x="1845" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1606484989845">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1845" y="358" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1606484989845" />
     <state x="1196" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605684498312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1196" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605684498312" />
+    <state x="1800" y="49" key="CommitChangelistDialog2" timestamp="1606793752744">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1800" y="49" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1606793752744" />
+    <state x="1760" y="102" width="703" height="838" key="DiffContextDialog" timestamp="1606793907390">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1760" y="102" width="703" height="838" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1606793907390" />
+    <state x="1983" y="180" key="RollbackChangesDialog" timestamp="1606793734800">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1983" y="180" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1606793734800" />
+    <state x="1562" y="165" key="SettingsEditor" timestamp="1606794731692">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1562" y="165" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1606794731692" />
+    <state x="1774" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1606793670400">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1774" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1606793670400" />
   </component>
 </project>
