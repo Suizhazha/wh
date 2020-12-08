@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guess/.cache/c3/fac52b89a1bea572f99569eefd979d.json" beforeDir="false" afterPath="$PROJECT_DIR$/Guess/.cache/c3/fac52b89a1bea572f99569eefd979d.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -62,6 +62,9 @@
       <workItem from="1606878768984" duration="771000" />
       <workItem from="1607049829412" duration="124000" />
       <workItem from="1607050068390" duration="1776000" />
+      <workItem from="1607228087719" duration="9000" />
+      <workItem from="1607416350597" duration="40000" />
+      <workItem from="1607416398233" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -88,6 +91,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/1" />
+    </ignored-roots>
     <MESSAGE value="换算美元" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
