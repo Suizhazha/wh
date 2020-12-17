@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guess/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Guess/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
   </component>
   <component name="ProjectId" id="1kSAA7ON3A61dG0eMi8qbXBirWr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
@@ -30,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wh" />
       <recent name="H:\桌面\wh\ Guess\src" />
     </key>
   </component>
@@ -67,7 +70,11 @@
       <workItem from="1607480992988" duration="1419000" />
       <workItem from="1607560173989" duration="1214000" />
       <workItem from="1607668778538" duration="1797000" />
-      <workItem from="1607758913235" duration="715000" />
+      <workItem from="1607758913235" duration="2235000" />
+      <workItem from="1607992382757" duration="221000" />
+      <workItem from="1607992613626" duration="645000" />
+      <workItem from="1608105250016" duration="979000" />
+      <workItem from="1608204513153" duration="2243000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -83,7 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1606794993447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1607759657544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607759657544</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1607759673193</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607759673193</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1607759679315</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607759679315</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
