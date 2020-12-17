@@ -1,6 +1,7 @@
 //复习promise,猜大小demo
 
 function fn(m){
+  console.log('开始摇色子，请等待3秒！')
  return new Promise((resolve,reject)=>{
    setTimeout(()=>{
      let n = parseInt(Math.random()*6+1,10)//[1,7)再parseInt
@@ -35,10 +36,10 @@ function fn(m){
 
 async function test(){
    try{
-     await fn('大')
-     console.log('赢了！')
+     let n=await fn('大')
+     console.log('赢了！'+n)
    }catch (error){
-     console.log('输了！')}
+     console.log('输了！'+error)}
 }
 
 test()
