@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Guess/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Guess/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,8 @@
       <workItem from="1607992382757" duration="221000" />
       <workItem from="1607992613626" duration="645000" />
       <workItem from="1608105250016" duration="979000" />
-      <workItem from="1608204513153" duration="2559000" />
+      <workItem from="1608204513153" duration="4464000" />
+      <workItem from="1608251548985" duration="1716000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608208145952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完善摇色子(promise)">
+      <created>1608211237655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608211237655</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -134,6 +143,7 @@
     <MESSAGE value="换算美元" />
     <MESSAGE value="init" />
     <MESSAGE value="完善玩色子(promise)" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善玩色子(promise)" />
+    <MESSAGE value="完善摇色子(promise)" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善摇色子(promise)" />
   </component>
 </project>

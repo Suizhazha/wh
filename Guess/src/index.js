@@ -34,12 +34,25 @@ function fn(m){
 
 //await is only valid in async function
 
+// async function test(){
+//    try{
+//      let n=await fn('大')
+//      console.log('赢了！'+n)
+//    }catch (error){
+//      console.log('输了！'+error)}
+// }
+//
+// test()
+
+
+//摇两个色子
 async function test(){
-   try{
-     let n=await fn('大')
-     console.log('赢了！'+n)
-   }catch (error){
-     console.log('输了！'+error)}
+  try{
+    //all需要多个都成功，race一个成功即可
+    let n=await Promise.all([fn('大'),fn('大')])
+    console.log('赢了！'+n)
+  }catch (error){
+    console.log('输了！'+error)}
 }
 
 test()
