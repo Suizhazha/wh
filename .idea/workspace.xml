@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urlToObject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guess/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Guess/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,10 @@
       <workItem from="1607992613626" duration="645000" />
       <workItem from="1608105250016" duration="979000" />
       <workItem from="1608204513153" duration="4464000" />
-      <workItem from="1608251548985" duration="1716000" />
+      <workItem from="1608251548985" duration="5841000" />
+      <workItem from="1609299187018" duration="332000" />
+      <workItem from="1609299955752" duration="46000" />
+      <workItem from="1609300037752" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -126,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608211237655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完善摇两个色子(promise.all/race)">
+      <created>1608256031206</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608256031206</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -144,6 +155,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="完善玩色子(promise)" />
     <MESSAGE value="完善摇色子(promise)" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善摇色子(promise)" />
+    <MESSAGE value="完善摇两个色子(promise.all/race)" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善摇两个色子(promise.all/race)" />
   </component>
 </project>
