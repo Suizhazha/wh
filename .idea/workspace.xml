@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
       <change afterPath="$PROJECT_DIR$/sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlToObject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/class.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sort.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1kSAA7ON3A61dG0eMi8qbXBirWr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -28,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,6 +83,9 @@
       <workItem from="1609299187018" duration="332000" />
       <workItem from="1609299955752" duration="46000" />
       <workItem from="1609300037752" duration="4000" />
+      <workItem from="1609300053188" duration="2153000" />
+      <workItem from="1609836170907" duration="70000" />
+      <workItem from="1609836250548" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608256031206</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="urlToObject">
+      <created>1609300204223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609300204223</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -156,6 +169,7 @@
     <MESSAGE value="完善玩色子(promise)" />
     <MESSAGE value="完善摇色子(promise)" />
     <MESSAGE value="完善摇两个色子(promise.all/race)" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善摇两个色子(promise.all/race)" />
+    <MESSAGE value="urlToObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="urlToObject" />
   </component>
 </project>
