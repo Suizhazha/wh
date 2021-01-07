@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/reverse.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/sort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/class.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,8 @@
       <workItem from="1609300053188" duration="2153000" />
       <workItem from="1609836170907" duration="70000" />
       <workItem from="1609836250548" duration="2078000" />
+      <workItem from="1609916928792" duration="1198000" />
+      <workItem from="1609997691100" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
