@@ -29,8 +29,9 @@ function reverseString (str) {
 reverseString('Hello');
 
 
-//reduce
+//split+reduce
 function reverseString(str){
+  //倒叙拼接
   return str.split("").reduce((revString, char)=> char + revString, "");
 }
 alert(reverseString("Learning JavaScript"));
