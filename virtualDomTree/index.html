@@ -1,0 +1,90 @@
+<!--
+ * @Author: lsw
+ * @Date: 2020-09-16 09:33:28
+ * @LastEditTime: 2020-09-16 14:08:35
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \virtualDomTree\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="div_style" data-img="http://www.baidu.com">
+        <ul>
+            <li class="li_style">1</li>
+            <li class="li_style">2</li>
+            <li class="li_style">3</li>
+        </ul>
+    </div>
+</body>
+<script>
+    const div = document.getElementsByClassName('div_style')[0]
+    class VNode {
+        constructor(tag, attr, value, type) {
+            this.tag = tag && tag.toLowerCase()
+            this.attr = attr
+            this.value = String(value).trim().length ? value : ''
+            this.type = type
+            this.children = []
+        }
+        appChildren(value) {
+            this.children.push(value)
+        }
+    }
+    function virtualDom(node) {
+        let nodeType = node.nodeType // 节点类型
+        let _vnode = null
+        if (nodeType === 1) { // 1为元素节点
+            let nodeName = node.nodeName // 节点名
+            let attr = node.attributes // 节点属性
+            let attrObj = {}
+            for (let i = 0; i < attr.length; i++) {
+                attrObj[attr[i].nodeName] = attr[i].nodeValue // 遍历节点的所有属性，将属性名与属性值构成键值对
+            }
+            _vnode = new VNode(nodeName, attrObj, undefined, nodeType) // 构建虚拟DOM对象，传入节点名，节点属性对象和节点类型
+            // console.log(node.childNodes)
+            let childNodes = node.childNodes // 读取当前节点的子节点
+            for (let i = 0; i < childNodes.length; i++) {
+                // if(!(childNodes[i].nodeType===3&&!childNodes.nodeValue)) 
+                _vnode.appChildren(virtualDom(childNodes[i])) // 将当前节点的所有子节点构建成虚拟DOM并存入当前节点的children中保存，构成虚拟DOM树
+            }
+        } else if (nodeType === 3) { // 3为文本节点
+            _vnode = new VNode(undefined, undefined, node.nodeValue, node.nodeType) // 如果是文本节点，只传入节点的值和节点的类型
+        }
+        return _vnode
+    }
+
+    console.log(virtualDom(div));
+
+    const virtual = virtualDom(div)
+    /**
+     * @逆解析
+     * @virtual 虚拟dom
+     * @farentDom 父元素dom
+     */ 
+    function unVirtual(virtual, farentDom = document.body) {
+        if (virtual.type === 1) { // 元素节点
+            let tempDom = document.createElement(virtual.tag) // 创建元素
+            for (const key in virtual.attr) {  // 遍历插入元素属性
+                tempDom.setAttribute(key, virtual.attr[key])
+            }
+            farentDom.appendChild(tempDom) // 插入元素
+            for (let i = 0; i < virtual.children.length; i++) { // 循环递归插入子元素
+                unVirtual(virtual.children[i], tempDom) 
+            }
+        } else if (virtual.type === 3) { // 文本节点 
+            var tempText = document.createTextNode(virtual.value) // 创建文本节点
+            farentDom.appendChild(tempText) // 插入文本节点
+        }
+    }
+    unVirtual(virtual)
+</script>
+
+</html>
