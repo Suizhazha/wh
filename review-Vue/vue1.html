@@ -12,6 +12,8 @@
 {{msg}}
   <br>
   {{3>2?a:msg}}
+  <br>
+  {{time}}
 </div>
 
 
@@ -25,13 +27,26 @@
    //可以声明应用内需要双向绑定的数据
    data:{
      msg:'Vue复习开始了',
-     a:6
+     a:6,
+     time:new Date()
    },
    created:function (){
      alert('还未挂载')
  },
+
+   //页面获取实时时间
    mounted:function (){
      alert('已经挂载')
+     //this就是Vue实例本身
+     const _this = this
+     this.timer= setInterval(()=>{
+       _this.time = new Date()
+     },1000)
+   },
+   beforeDestroy:function (){
+     if (this.timer){
+       clearInterval(this.timer)
+     }
    }
  })
 
