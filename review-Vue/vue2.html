@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .transRed{
+      background-color: red;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<!--过滤器，指令，事件，语法糖-->
+
+<div id="app">
+  {{msg}}
+  <hr>
+  过滤器：时间
+  <br>
+  {{time}}
+  <hr>
+  指令和事件
+  <br><br>
+  v-text:渲染文本字符串
+  <br>
+  {{apple}}
+  <span v-text="apple"></span>
+  <br><br>
+  v-html：渲染html
+  <br>
+  <span v-html="banana"></span>
+  <br><br>
+  v-bind：绑定活的属性
+  <br>
+<div :class="className"></div>
+  <br><br>
+  v-on:绑定事件监听器，监听DOM事件
+  <br>
+{{a}}
+<button @click="add">+1</button>
+  <button @click="a+=2">+2</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script>
+
+  const app = new Vue({
+  el:'#app',
+  data:{
+    msg:'Vue复习2',
+    time:new Date(),
+    apple:'苹果',
+    banana:'<span style="color: greenyellow;">香蕉</span>',
+    className:'transRed',
+    a:0
+  },
+    methods:{
+      add:function(){
+        this.a +=1
+      }
+    },
+    mounted:function(){
+    const _this = this //this即Vue实例本身
+      this.timer = setInterval(()=>{
+        _this.time = new Date()
+      },1000)
+  },
+    beforeDestroy:function (){
+    //清除定时器
+      if (this.timer){
+        clearInterval(this.timer)
+      }
+    }
+})
+
+</script>
+
+</body>
+</html>
