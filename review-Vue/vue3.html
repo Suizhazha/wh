@@ -8,6 +8,7 @@
   <title>Document</title>
 </head>
 <body>
+
 <div id="app">
   {{msg}}
   <hr>
@@ -18,13 +19,21 @@
   {{text}}反转变成{{ reverseText }}
   <hr>
 两个购物车总和：{{prices}}
-
-
-
+  <hr>
 </div>
+
+<div id="app2">
+  <br>
+  {{msg}}
+  <br>
+  {{fullName}}
+</div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script>
+
   //计算购物车中所有物品价格
   const app = new Vue({
     el:'#app',
@@ -55,7 +64,7 @@
       reverseText(){
         return this.text.split(',').reverse().join(',')
       },
-  prices(){
+       prices(){
         let sum =0
     for (let i = 0; i <this.package1.length ; i++) {
       sum+=this.package1[i].price*this.package1[i].count
@@ -64,8 +73,34 @@
       sum+=this.package2[j].price*this.package2[j].count
     }
     return sum
-}
+},
+    }
+  })
+
+  //getter和setter姓名
+  const app2 = new Vue({
+    el:'#app2',
+    data:{
+      msg:'以下是app2实例的getter和setter姓名',
+      firstName:'Sui',
+      lastName:'Xin'
     },
+    computed:{
+      //计算属性默认使用getter方法
+      // fullName(){
+      //   return this.firstName+' '+this.lastName
+      // }
+     fullName:{
+       get(){
+         return this.firstName+' '+this.lastName
+       },
+       set(newValue){
+         let newNames = newValue.split(' ')
+         this.firstName = newNames[0]
+         this.lastName = newNames[1]
+       }
+     }
+    }
   })
 
 </script>
