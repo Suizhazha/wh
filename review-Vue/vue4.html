@@ -6,6 +6,18 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>v-bind和class及style的绑定</title>
+  <style>
+    .red{
+      background-color:  red;
+      width: 50px;
+      height: 50px;
+    }
+    .green{
+      background-color:  green;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
 </head>
 <body>
 
@@ -14,17 +26,29 @@
   <br><br>
   1.绑定class对象语法：对象的健是类名，值是布尔值
   <br>
-  <div :class="{}"></div>
-
+  <div :class="{ red:isRed}"></div>
+  <br>
+  <button @click="{trans()}">点击切换颜色</button>
+  <hr>
+  <br>
+  2.绑定class数组语法
+  <div :class="[isGreen]"></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script>
   const app =new Vue ({
     el:'.demo',
     data:{
-      msg:'v-bind和class及style的绑定'
+      msg:'v-bind和class及style的绑定',
+      red:'red',
+      isRed:true,
+      isGreen:'green'
+    },
+    methods:{
+      trans(){
+        return this.isRed = !this.isRed
+      }
     }
-
 
   })
 </script>
