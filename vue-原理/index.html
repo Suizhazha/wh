@@ -1,0 +1,49 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-09-21 10:39:20
+ * @LastEditTime: 2020-09-21 16:50:53
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue-原理\index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div>{{name}}</div>
+        <div>{{age}}</div>
+        <div v-text="hello"></div>
+        <div class="msg">
+            <span>{{msg}}</span>
+        </div>
+        <button @click="handleClick">点击</button>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
+<script src="./compile.js"></script>
+<script>
+    var vm = new Vue({
+        el : '#app',
+        data:{
+            name : 'xiaoming',
+            age : 18,
+            sex : '男',
+            msg: 'nihao'
+        },
+        methods: {
+            handleClick(){
+                console.log(123)
+                this.name = 'xiaoming555555555555'
+            }
+        },
+    })
+console.log(vm);
+
+</script>

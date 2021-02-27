@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<div id="app">
+{{msg}}
+  <br>
+  {{3>2?a:msg}}
+  <br>
+  {{time}}
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+<script>
+ const app = new Vue({
+   //element,用于指定页面中存在的DOM元素，挂载到DOM中,也可以是标签或者CSS语法
+   el:'#app',
+   //可以声明应用内需要双向绑定的数据
+   data:{
+     msg:'Vue复习开始了',
+     a:6,
+     time:new Date()
+   },
+   created:function (){
+     alert('还未挂载')
+ },
+
+   //页面获取实时时间
+   mounted:function (){
+     alert('已经挂载')
+     //this就是Vue实例本身
+     const _this = this
+     this.timer= setInterval(()=>{
+       _this.time = new Date()
+     },1000)
+   },
+   beforeDestroy:function (){
+     if (this.timer){
+       clearInterval(this.timer)
+     }
+   }
+ })
+
+ //访问Vue实例的属性
+ console.log(app.$el)
+ console.log(app.$data)
+//访问Vue的data中属性
+ console.log(app.msg)
+
+</script>
+
+</body>
+</html>
