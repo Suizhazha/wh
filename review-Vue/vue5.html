@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>指令</title>
+    <style>
+        [v-cloak]{
+          display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="demo">
+    v-cloak:解决初始化慢导致页面闪动,一般与display:none配合
+    <br>
+    <span v-cloak>    {{msg}}
+    </span>
+    <hr>
+    v-once:定义它的元素和组件只渲染一次
+    <br>
+    <span v-once>    {{onceData}}</span>
+    列表渲染：v-for
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+<script>
+    new Vue({
+      el:'#demo',
+      data:{
+        msg:'指令',
+onceData:'yici'
+      }
+    })
+</script>
+</body>
+</html>
