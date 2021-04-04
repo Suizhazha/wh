@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/reverse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort.js" afterDir="false" />
+    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="reverseString">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-Vue/vue5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wh.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Currying.js" beforeDir="false" afterPath="$PROJECT_DIR$/Currying.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/virtualDomTree/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtualDomTree/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/sort.js" root0="SKIP_INSPECTION" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1kSAA7ON3A61dG0eMi8qbXBirWr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -28,14 +47,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="E:\Software\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wh\20201101轮播图、监听器" />
       <recent name="E:\wh" />
       <recent name="H:\桌面\wh\ Guess\src" />
     </key>
@@ -87,7 +112,26 @@
       <workItem from="1609836170907" duration="70000" />
       <workItem from="1609836250548" duration="2078000" />
       <workItem from="1609916928792" duration="1198000" />
-      <workItem from="1609997691100" duration="3331000" />
+      <workItem from="1609997691100" duration="5627000" />
+      <workItem from="1610084319184" duration="156000" />
+      <workItem from="1610084497636" duration="4000" />
+      <workItem from="1610084508480" duration="29000" />
+      <workItem from="1610084543424" duration="19000" />
+      <workItem from="1610084575033" duration="5000" />
+      <workItem from="1610084586196" duration="222000" />
+      <workItem from="1610084812696" duration="43000" />
+      <workItem from="1610084862013" duration="857000" />
+      <workItem from="1610085733454" duration="2423000" />
+      <workItem from="1610356576662" duration="2163000" />
+      <workItem from="1610358827417" duration="1758000" />
+      <workItem from="1610513603377" duration="6370000" />
+      <workItem from="1610530327268" duration="8739000" />
+      <workItem from="1611556138083" duration="1481000" />
+      <workItem from="1611558997892" duration="9055000" />
+      <workItem from="1613786040001" duration="39788000" />
+      <workItem from="1614931973834" duration="46000" />
+      <workItem from="1614932034096" duration="1160000" />
+      <workItem from="1617293746607" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -152,7 +196,140 @@
       <option name="project" value="LOCAL" />
       <updated>1609300204223</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="reverseString">
+      <created>1610012170511</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610012170511</updated>
+    </task>
+    <task id="LOCAL-00011" summary="reverseString">
+      <created>1610356970648</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610356970648</updated>
+    </task>
+    <task id="LOCAL-00012" summary="柯里化">
+      <created>1611576705949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611576705949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="this">
+      <created>1611755826873</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611755826873</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Vue原理">
+      <created>1613806763247</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613806763247</updated>
+    </task>
+    <task id="LOCAL-00015" summary="virtualDomTree">
+      <created>1613806810121</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613806810121</updated>
+    </task>
+    <task id="LOCAL-00016" summary="实例，钩子">
+      <created>1613984095065</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613984095065</updated>
+    </task>
+    <task id="LOCAL-00017" summary="轮播图，监听器">
+      <created>1613984286196</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613984286196</updated>
+    </task>
+    <task id="LOCAL-00018" summary="页面获取实时时间">
+      <created>1614066805298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614066805298</updated>
+    </task>
+    <task id="LOCAL-00019" summary="过滤器，指令事件，语法糖">
+      <created>1614083998900</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614083998900</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <created>1614084767126</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614084767126</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init">
+      <created>1614084781234</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614084781234</updated>
+    </task>
+    <task id="LOCAL-00022" summary="购物车的物品总价">
+      <created>1614134521635</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614134521635</updated>
+    </task>
+    <task id="LOCAL-00023" summary="getter和setter">
+      <created>1614137290445</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614137290445</updated>
+    </task>
+    <task id="LOCAL-00024" summary="init">
+      <created>1614155063517</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614155063517</updated>
+    </task>
+    <task id="LOCAL-00025" summary="over">
+      <created>1614223581919</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614223581919</updated>
+    </task>
+    <task id="LOCAL-00026" summary="年月日周">
+      <created>1614932150171</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1614932150172</updated>
+    </task>
+    <task id="LOCAL-00027" summary="新增小时分钟秒">
+      <created>1614932175518</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1614932175518</updated>
+    </task>
+    <task id="LOCAL-00028" summary="init">
+      <created>1617529958345</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617529958345</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -160,18 +337,42 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/1/index.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/1" />
+      <path value="$PROJECT_DIR$/interview" />
     </ignored-roots>
     <MESSAGE value="换算美元" />
-    <MESSAGE value="init" />
     <MESSAGE value="完善玩色子(promise)" />
     <MESSAGE value="完善摇色子(promise)" />
     <MESSAGE value="完善摇两个色子(promise.all/race)" />
     <MESSAGE value="urlToObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="urlToObject" />
+    <MESSAGE value="reverseString" />
+    <MESSAGE value="柯里化" />
+    <MESSAGE value="this" />
+    <MESSAGE value="Vue原理" />
+    <MESSAGE value="virtualDomTree" />
+    <MESSAGE value="实例，钩子" />
+    <MESSAGE value="轮播图，监听器" />
+    <MESSAGE value="页面获取实时时间" />
+    <MESSAGE value="过滤器，指令事件，语法糖" />
+    <MESSAGE value="购物车的物品总价" />
+    <MESSAGE value="getter和setter" />
+    <MESSAGE value="over" />
+    <MESSAGE value="年月日周" />
+    <MESSAGE value="新增小时分钟秒" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
