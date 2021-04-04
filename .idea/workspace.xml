@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="reverseString">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review-Vue/vue5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wh.iml" afterDir="false" />
+    <list default="true" id="71275da3-7643-490b-968c-378278a70ab0" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Currying.js" beforeDir="false" afterPath="$PROJECT_DIR$/Currying.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/virtualDomTree/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/virtualDomTree/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +124,7 @@
       <workItem from="1613786040001" duration="39788000" />
       <workItem from="1614931973834" duration="46000" />
       <workItem from="1614932034096" duration="1160000" />
-      <workItem from="1617293746607" duration="2563000" />
+      <workItem from="1617293746607" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="换算美元">
       <created>1606793696052</created>
@@ -329,7 +322,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617529958345</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="init">
+      <created>1617530120075</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1617530120075</updated>
+    </task>
+    <task id="LOCAL-00030" summary="virtualDom">
+      <created>1617530169530</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1617530169530</updated>
+    </task>
+    <task id="LOCAL-00031" summary="init">
+      <created>1617530194104</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1617530194104</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -368,6 +382,7 @@
     <MESSAGE value="over" />
     <MESSAGE value="年月日周" />
     <MESSAGE value="新增小时分钟秒" />
+    <MESSAGE value="virtualDom" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
