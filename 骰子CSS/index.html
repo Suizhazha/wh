@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      padding: 10px;
+      width: 150px;
+      height: 150px;
+      border: 3px solid #ddd;
+      border-radius: 10px;
+      background: #fff;
+      margin: 50px;
+      text-align: center;
+
+    }
+
+    .item {
+      width: 50px;
+      height: 50px;
+      background: #999;
+      border-radius: 50%;
+    }
+    .one{
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    .two{
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .three{
+      flex-direction: column;
+    }
+    .three .item:nth-child(2){
+      align-self: center;
+    }
+    .three .item:nth-child(3){
+      align-self:flex-end;
+    }
+
+    .four{
+      justify-content: space-around;
+    }
+    .four .item {
+      margin: 15px;
+    }
+    .four div{
+        align-content: space-around;
+    }
+
+    .five{
+      flex-direction: column ;
+    }
+    .five .item{
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .six  {
+      flex-flow: column wrap;
+    }
+    .six .item{
+      margin-left: 15px ;
+    }
+  </style>
+</head>
+<body>
+<div class="container one">
+  <div class="item"></div>
+
+</div>
+<div class="container two">
+  <div class="item"></div>
+  <div class="item"></div>
+
+</div>
+<div class="container three">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+
+</div>
+<div class="container four">
+    <div >
+      <div class="item">1</div>
+      <div class="item">2</div>
+    </div>
+    <div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+</div>
+
+<div class="container five">
+  <div>
+    <div class="item">1</div>
+    <div class="item">2</div>
+  </div>
+  <div>
+    <div class="item">3</div>
+  </div>
+  <div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+  </div>
+</div>
+
+<div class="container six">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">4</div>
+
+</div>
+
+
+
+
+</body>
+</html>
